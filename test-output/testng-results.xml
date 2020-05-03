@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="8" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="My Sample Test Suite" duration-ms="19162" started-at="2020-04-23T20:10:09Z" finished-at="2020-04-23T20:10:28Z">
+    <groups>
+    </groups>
+    <test name="My Sample App Test -chrome" duration-ms="9168" started-at="2020-04-23T20:10:09Z" finished-at="2020-04-23T20:10:18Z">
+      <class name="TestNGSessions.ContactsTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestNGSessions.ContactsTest@5c3bd550]" name="setUp" is-config="true" duration-ms="9135" started-at="2020-04-23T20:10:09Z" finished-at="2020-04-23T20:10:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.google.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createContactTest()[pri:0, instance:TestNGSessions.ContactsTest@5c3bd550]" name="createContactTest" duration-ms="6" started-at="2020-04-23T20:10:18Z" finished-at="2020-04-23T20:10:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestNGSessions.ContactsTest@5c3bd550]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-04-23T20:10:18Z" finished-at="2020-04-23T20:10:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNGSessions.ContactsTest -->
+      <class name="TestNGSessions.HomeTest">
+        <test-method status="PASS" signature="header()[pri:0, instance:TestNGSessions.HomeTest@91161c7]" name="header" duration-ms="2" started-at="2020-04-23T20:10:18Z" finished-at="2020-04-23T20:10:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- header -->
+      </class> <!-- TestNGSessions.HomeTest -->
+    </test> <!-- My Sample App Test -chrome -->
+    <test name="My Sample App Test -firefox" duration-ms="9950" started-at="2020-04-23T20:10:18Z" finished-at="2020-04-23T20:10:28Z">
+      <class name="TestNGSessions.ContactsTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestNGSessions.ContactsTest@589838eb]" name="setUp" is-config="true" duration-ms="9932" started-at="2020-04-23T20:10:18Z" finished-at="2020-04-23T20:10:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.google.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createContactTest()[pri:0, instance:TestNGSessions.ContactsTest@589838eb]" name="createContactTest" duration-ms="3" started-at="2020-04-23T20:10:28Z" finished-at="2020-04-23T20:10:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestNGSessions.ContactsTest@589838eb]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-04-23T20:10:28Z" finished-at="2020-04-23T20:10:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNGSessions.ContactsTest -->
+      <class name="TestNGSessions.HomeTest">
+        <test-method status="PASS" signature="header()[pri:0, instance:TestNGSessions.HomeTest@42dafa95]" name="header" duration-ms="5" started-at="2020-04-23T20:10:28Z" finished-at="2020-04-23T20:10:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- header -->
+      </class> <!-- TestNGSessions.HomeTest -->
+    </test> <!-- My Sample App Test -firefox -->
+  </suite> <!-- My Sample Test Suite -->
+</testng-results>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="My Sample Test Suite">
+  <test  name="My Sample App Test -chrome" verbose = "3">
+  <parameter name = "browser" value = "chrome"/>
+    <parameter name = "url" value = "http://www.google.com"/>
+    <parameter name = "headless" value = "no"/>
+    
+  
+    <classes>
+      <class name="TestNGSessions.ContactsTest"/>
+      <class name="TestNGSessions.HomeTest"/>
+      
+    </classes>
+  </test> 
+  
+  <test  name="My Sample App Test -firefox" verbose = "3">
+  <parameter name = "browser" value = "firefox"/>
+    <parameter name = "url" value = "http://www.google.com"/>
+    <parameter name = "headless" value = "yes"/>
+    
+  
+    <classes>
+    <class name="TestNGSessions.ContactsTest"/>
+      <class name="TestNGSessions.HomeTest"/>
+    </classes>
+  </test> 
+  
+  
+  
+</suite> 

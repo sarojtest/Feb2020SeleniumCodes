@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My Sample Test Suite]">
+  <test thread-count="5" name="My Sample App Test -firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="TestNGSessions.ContactsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="createContactTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- TestNGSessions.ContactsTest -->
+      <class name="TestNGSessions.HomeTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="header"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- TestNGSessions.HomeTest -->
+    </classes>
+  </test> <!-- My Sample App Test -firefox(failed) -->
+</suite> <!-- Failed suite [My Sample Test Suite] -->
